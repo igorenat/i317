@@ -1,0 +1,10 @@
+#include <iostream>
+#include <math.h>
+
+int main() {
+    int A,B;
+    std::cin>>A>>B;
+    int s=(A*B)%109;
+    std::cout<<s;
+    return 0;
+}
