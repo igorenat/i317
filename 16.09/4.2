@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin>>a>>b;
+    while (a!=b and a>b){
+        if (a%2==0 and a-b>b){
+            a=a/2;
+            cout<<":2\n";
+        }
+        else{
+            --a;
+            cout<<"-1\n";
+        }    
+    }
+}
